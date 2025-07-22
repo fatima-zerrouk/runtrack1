@@ -1,0 +1,34 @@
+    .body{
+      background: #accbd7;
+      margin: 0px;
+
+   }
+      .nom {
+        padding: 20px;
+        font-family: sans-serif;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 5);
+        text-align: center;
+        
+     } 
+     .formation,h2 {
+        font-weight: bold;
+        font-family: sans-serif;
+     }
+     ul {
+        font-family: sans-serif;
+     }
+
+    
+    .logo{
+        width: 5%;
+        margin-left: 1%;
+        margin-top: 3%;
+        
+    }
+
+
+@media screen and (max-width: 768px) {
+  section {
+    flex-direction: column; 
+  }
+}
